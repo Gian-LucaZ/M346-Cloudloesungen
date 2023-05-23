@@ -1,25 +1,3 @@
-# M346-Cloudloesungen
-#readme #ops #tbz
-
-## KN01
-![p1](./KN01/Screenshot%202023-05-16%20102703.png)
-![p2](./KN01/Screenshot%202023-05-16%20102746.png)
-![p2](./KN01/Screenshot%202023-05-16%20102848.png)
-
-## KN2
-
-### a)
-![[Screenshot 2023-05-23 084738.png]]![[Screenshot 2023-05-23 084823.png]]![[Screenshot 2023-05-23 084847.png]]
-*(Connection hat nicht funktioniert.)*
-
-### b)
-![[Screenshot 2023-05-23 092032.png]]![[Screenshot 2023-05-23 092012.png]]![[Screenshot 2023-05-23 091954.png]]![[Screenshot 2023-05-23 091934.png]]
-
-# B) -> SSH
-![[Pasted image 20230523094146.png]]![[Pasted image 20230523094441.png]]![[Pasted image 20230523094535.png]]
-
-# C) -> YAML
-```yaml
 #cloud-config
 users: # Liste von usen
   - name: ubuntu # Erstes Entry in der Liste (username ubuntu)
@@ -35,4 +13,3 @@ package_update: true # Autoupdate von Packages
 packages: # Packagereferenzen
   - curl 
   - wget
-```
