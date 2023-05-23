@@ -1,0 +1,29 @@
+#cloud-config
+users:
+  - name: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    home: /home/ubuntu
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCibIsaqY7lwA3ZxLaFUT1/UroxYK35ptCX2+pinj1jS9d60KuqiSWM2JmvwgijB3Wt7HhL2TfH6KdQAeNK1EIcUaxowkyVJlwk35cr9DVEY5MH3te/rrZNyC4hUlvcwL/Ik2zFcVV5D9/J9ZlKWI/MKUY5shSmwz6VPHdO+Ucfdlj8eLySYajlYXSE8ygml0tCO36c7p+WHfymKVWxMMhBTJ9QVFxzse/9GUy12hNHDqRWyA84GfXaLDJTOSsPZb7skm5dS9FAESbyg+vRsVPx6pCLrCYkG4pYzUg7HnzuAUFOAqPeX/oZRH3a1VsXrv+ydg7EE2PJ4hg23VyUK/E9 aws-key       
+ssh_pwauth: false
+disable_root: false
+package_update: true
+packages:
+  - curl 
+  - wget
+  - apache2
+  - php
+  - libapache2-mod-php
+  - adminer
+write_files:
+  - encoding: b64
+    path: /var/www/html/db.php
+    content: PD9waHAKICAgICAgICAvL2RhdGFiYXNlCiAgICAgICAgJHNlcnZlcm5hbWUgPSAiMTI3LjAuMC4xIjsKICAgICAgICAkdXNlcm5hbWUgPSAiYWRtaW4iOwogICAgICAgICRwYXNzd29yZCA9ICJwYXNzd29yZCI7CiAgICAgICAgJGRibmFtZSA9ICJteXNxbCI7CgogICAgICAgIC8vIENyZWF0ZSBjb25uZWN0aW9uCiAgICAgICAgJGNvbm4gPSBuZXcgbXlzcWxpKCRzZXJ2ZXJuYW1lLCAkdXNlcm5hbWUsICRwYXNzd29yZCwgJGRibmFtZSk7CiAgICAgICAgLy8gQ2hlY2sgY29ubmVjdGlvbgogICAgICAgIGlmICgkY29ubi0+Y29ubmVjdF9lcnJvcikgewogICAgICAgICAgICAgICAgZGllKCJDb25uZWN0aW9uIGZhaWxlZDogIiAuICRjb25uLT5jb25uZWN0X2Vycm9yKTsKICAgICAgICB9CgogICAgICAgICRzcWwgPSAic2VsZWN0IEhvc3QsIFVzZXIgZnJvbSBteXNxbC51c2VyOyI7CiAgICAgICAgJHJlc3VsdCA9ICRjb25uLT5xdWVyeSgkc3FsKTsKICAgICAgICB3aGlsZSgkcm93ID0gJHJlc3VsdC0+ZmV0Y2hfYXNzb2MoKSl7CiAgICAgICAgICAgICAgICBlY2hvKCRyb3dbIkhvc3QiXSAuICIgLyAiIC4gJHJvd1siVXNlciJdIC4gIjxiciAvPiIpOwogICAgICAgIH0KICAgICAgICAvL3Zhcl9kdW1wKCRyZXN1bHQpOwo/Pgo=
+  - encoding: b64
+    path: /var/www/html/info.php
+    content: PD9waHAKCi8vIFNob3cgYWxsIGluZm9ybWF0aW9uLCBkZWZhdWx0cyB0byBJTkZPX0FMTApwaHBpbmZvKCk7Cgo/Pg==
+runcmd:
+  - sudo a2enconf adminer
+  - sudo systemctl restart apache2
