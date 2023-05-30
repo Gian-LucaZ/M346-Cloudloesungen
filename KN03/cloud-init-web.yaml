@@ -16,6 +16,7 @@ packages:
   - apache2
   - php
   - libapache2-mod-php
+  - php-mysqli
   - adminer
 write_files:
   - encoding: b64

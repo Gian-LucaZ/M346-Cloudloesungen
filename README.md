@@ -55,3 +55,8 @@ packages: # Packagereferenzen
 # KN03
 ![](./KN03/Pasted%20image%2020230523113737.png)
 
+-> Telnet klappt trotz Rules nicht.
+
+Webserver:
+![](Pasted%20image%2020230530084453.png)
+![](Pasted%20image%2020230530084514.png)
