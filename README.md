@@ -58,19 +58,19 @@ packages: # Packagereferenzen
 -> Telnet klappt trotz Rules nicht.
 
 Webserver:
-![](Pasted%20image%2020230530084453.png)
-![](Pasted%20image%2020230530084514.png)
+![](./KN03/Pasted%20image%2020230530084453.png)
+![](./KN03/Pasted%20image%2020230530084514.png)
 
 -> Connection zu DB-Server nicht mögl. Trotz folgenden Einstellungen ![](Pasted%20image%2020230530102511.png)
 Connection per ssh funktioniert und telnet nur lokal, trotz offener security group etc:
-![](Pasted%20image%2020230530102557.png)
+![](./KN03/Pasted%20image%2020230530102557.png)
 
 ## b)
 Bei S3 handelt es sich um einen Hot-Datenspeicher, da S3 viele für häufige Read und Write Prozesse gedacht ist. Wenn diese Daten dann "cold" werden, so benutzt man für diese oft glacier.
 
-![](Pasted%20image%2020230530104115.png)
-![](Pasted%20image%2020230530104958.png)
+![](./KN03/Pasted%20image%2020230530104115.png)
+![](./KN03/Pasted%20image%2020230530104958.png)
 
 -> Beim Löschen der VM wird nur das Stamm volume gelöscht. Das macht vor allem dann sinn, wenn die im Nachhinein hinzugefügten Volumes zur Resourcenverwaltung genutzt werden und so von immer anderen Vm's genutzt werden können.
 
-![](Pasted%20image%2020230530105100.png)
+![](./KN03/Pasted%20image%2020230530105100.png)
