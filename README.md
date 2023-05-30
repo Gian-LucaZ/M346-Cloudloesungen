@@ -9,14 +9,21 @@
 ## KN2
 
 ### a)
-![[Screenshot 2023-05-23 084738.png]]![[Screenshot 2023-05-23 084823.png]]![[Screenshot 2023-05-23 084847.png]]
+![324](./KN02/Screenshot%202023-05-23%20084738.png)
+![234](./KN02/Screenshot%202023-05-23%20084823.png)
+![](./KN02/Screenshot%202023-05-23%20084847.png)
 *(Connection hat nicht funktioniert.)*
 
 ### b)
-![[Screenshot 2023-05-23 092032.png]]![[Screenshot 2023-05-23 092012.png]]![[Screenshot 2023-05-23 091954.png]]![[Screenshot 2023-05-23 091934.png]]
+![](./KN02/Screenshot%202023-05-23%20092032.png)
+![](./KN02/Screenshot%202023-05-23%20092012.png)
+![](./KN02/Screenshot%202023-05-23%20091954.png)
+![](./KN02/Screenshot%202023-05-23%20091934.png)
 
 # B) -> SSH
-![[Pasted image 20230523094146.png]]![[Pasted image 20230523094441.png]]![[Pasted image 20230523094535.png]]
+![](./KN02/Pasted%20image%2020230523094146.png)
+![](./KN02/Pasted%20image%2020230523094441.png)
+![](./KN02/Pasted%20image%2020230523094535.png)
 
 # C) -> YAML
 ```yaml
@@ -41,9 +48,10 @@ packages: # Packagereferenzen
   - curl 
   - wget
 ```
-![[Pasted image 20230523103614.png]]
-![[Pasted image 20230523103821.png]]![[Pasted image 20230523103854.png]]
+![](./KN02/Pasted%20image%2020230523103614.png)
+![](./KN02/Pasted%20image%2020230523103821.png)
+![](./KN02/Pasted%20image%2020230523103854.png)
 
 # KN03
-![[Pasted image 20230523113737.png]] 
+![](./KN03/Pasted%20image%2020230523113737.png)
 
