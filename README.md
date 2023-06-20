@@ -74,3 +74,23 @@ Bei S3 handelt es sich um einen Hot-Datenspeicher, da S3 viele für häufige Rea
 -> Beim Löschen der VM wird nur das Stamm volume gelöscht. Das macht vor allem dann sinn, wenn die im Nachhinein hinzugefügten Volumes zur Resourcenverwaltung genutzt werden und so von immer anderen Vm's genutzt werden können.
 
 ![](./KN03/Pasted%20image%2020230530105100.png)
+
+# KN04
+
+![](./KN04/Pasted%20image%2020230613081241.png)
+
+![](./KN04/Pasted%20image%2020230613081434.png)
+
+![](./KN04/Pasted%20image%2020230613081730.png)
+
+![](./KN04/Pasted%20image%2020230613082109.png)
+
+![](Pasted%20image%2020230613100428.png)
+![](Pasted%20image%2020230613100507.png)
+![](Pasted%20image%2020230613102437.png)
+-> db. php kann zwar aufgerufen werden, script failed aber, trotz richtiger konfiguration.
+
+# KN05
+
+![](Pasted%20image%2020230613110758.png)
+
