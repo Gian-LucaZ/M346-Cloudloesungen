@@ -114,3 +114,9 @@ Bei S3 handelt es sich um einen Hot-Datenspeicher, da S3 viele für häufige Rea
 ![](./KN07/Pasted%20image%2020230627092123.png)
 ![](./KN07/Pasted%20image%2020230627095118.png)![](./KN07/Pasted%20image%2020230627095202.png)
 ![](./KN07/Pasted%20image%2020230627095240.png)
+
+# KN08
+
+![](./KN08/Pasted%20image%2020230627103609.png)
+
+-> [Commands](./KN08/COMMANDS)
