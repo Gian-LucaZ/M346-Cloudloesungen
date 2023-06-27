@@ -85,20 +85,20 @@ Bei S3 handelt es sich um einen Hot-Datenspeicher, da S3 viele für häufige Rea
 
 ![](./KN04/Pasted%20image%2020230613082109.png)
 
-![](Pasted%20image%2020230613100428.png)
-![](Pasted%20image%2020230613100507.png)
-![](Pasted%20image%2020230613102437.png)
+![](./KN04/Pasted%20image%2020230613100428.png)
+![](./KN04/Pasted%20image%2020230613100507.png)
+![](./KN04/Pasted%20image%2020230613102437.png)
 -> db. php kann zwar aufgerufen werden, script failed aber, trotz richtiger konfiguration.
 
 # KN05
 
-![](Pasted%20image%2020230613110758.png)
+![](./KN04/Pasted%20image%2020230613110758.png)
 
-![](Pasted%20image%2020230620084140.png)
+![](./KN05/Pasted%20image%2020230620084140.png)
 
-![](Pasted%20image%2020230620084726.png)
+![](./KN05/Pasted%20image%2020230620084726.png)
 ![](Pasted%20image%2020230620085202.png)
-![](Pasted%20image%2020230620104858.png)
+![](./KN05/Pasted%20image%2020230620104858.png)
 
 ## KN06
 
