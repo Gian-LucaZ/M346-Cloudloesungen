@@ -107,3 +107,10 @@ Bei S3 handelt es sich um einen Hot-Datenspeicher, da S3 viele für häufige Rea
 ![](./KN06/Pasted%20image%2020230627084054.png)
 -> Zoho ist overall etwas günstiger und kann auch Monatlich gekündet werden, was es zum momentanen Favoriten macht. Die vorherige IaaS / PaaS Infrastruktur ist zwar monatlich billiger, muss aber auch selber geupdated und maintained werden. So ist es am Anfang einfacher und auch billiger mit einem SaaS Modell einzusteigen, mit der zeit wird es aber immer teurer, da zwar der Vorab-Preis sehr billig ist die Monatliche miete jedoch diese eines Iaas modells übertrifft.
 
+# KN07
+![](./KN07/Pasted%20image%2020230627091609.png)
+![](./KN07/Pasted%20image%2020230627091836.png)
+![](./KN07/Pasted%20image%2020230627091903.png)
+![](./KN07/Pasted%20image%2020230627092123.png)
+![](./KN07/Pasted%20image%2020230627095118.png)![](./KN07/Pasted%20image%2020230627095202.png)
+![](./KN07/Pasted%20image%2020230627095240.png)
